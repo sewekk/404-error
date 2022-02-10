@@ -19,7 +19,7 @@
         }
 
         @media screen and (min-width: map-get($breakpoints, medium)) {
-            margin-left: 70px;
+            margin-left: 100px;
 
         }
 
@@ -51,7 +51,7 @@
         }
 
         @media screen and (min-width: map-get($breakpoints, medium)) {
-            margin-left: 70px;
+            margin-left: 100px;
         }
 
         @media screen and (min-width: map-get($breakpoints, large)) {
@@ -94,7 +94,7 @@
 
         @media screen and (min-width: map-get($breakpoints, medium)) {
 
-            margin: 30px 94px;
+            margin: 30px 124px;
         }
     }
 }

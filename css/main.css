@@ -84,6 +84,7 @@ main {
 
 body {
   line-height: 1;
+  overflow: hidden;
 }
 
 ol,
@@ -263,7 +264,7 @@ input {
 
 @media screen and (min-width: 800px) {
   .information__title {
-    margin-left: 70px;
+    margin-left: 100px;
   }
 }
 
@@ -302,7 +303,7 @@ input {
 
 @media screen and (min-width: 800px) {
   .information__description {
-    margin-left: 70px;
+    margin-left: 100px;
   }
 }
 
@@ -345,7 +346,7 @@ input {
 
 @media screen and (min-width: 800px) {
   .information .button {
-    margin: 30px 94px;
+    margin: 30px 124px;
   }
 }
 
