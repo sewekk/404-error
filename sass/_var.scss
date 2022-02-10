@@ -1,0 +1,22 @@
+$base-font-color: #333333;
+$second-font-color: #4F4F4F;
+$footer-font-color: #BDBDBD;
+
+
+$base-font-family : 'Space Mono',
+monospace;
+$second-font-family: 'Montserrat',
+sans-serif;
+$title-font-family: 'Inconsolata',
+monospace;
+
+$base-font-weight : 700;
+$second-font-weight: 400;
+
+$base-font-size: 18px;
+
+$breakpoints: (small:520px,
+    medium: 800px,
+    large: 1000px,
+    xlarge:1440px,
+)

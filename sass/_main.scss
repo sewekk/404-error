@@ -1,0 +1,61 @@
+.main {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: map-get($breakpoints, medium)) {
+        flex-direction: row;
+        align-items: flex-start
+    }
+
+    &__image {
+        flex-basis: 40%;
+        width: 100%;
+        position: relative;
+
+        @media screen and (min-width: map-get($breakpoints, medium)) {
+            height: 100%;
+            margin-top: calc(200px - 5vh);
+        }
+
+        .image {
+            width: 75%;
+            height: 75%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -55%);
+
+            @media screen and (min-width: map-get($breakpoints, small)) {
+                width: 60%;
+                height: 85%;
+
+            }
+
+            @media screen and (min-width: map-get($breakpoints, medium)) {
+                width: 100%;
+                height: 50%;
+                top: 20%;
+                margin: 70px 35px;
+            }
+
+            @media screen and (min-width: map-get($breakpoints, xlarge)) {
+                height: 53%;
+            }
+
+        }
+    }
+
+    &__information {
+        flex-basis: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        @media screen and (min-width: map-get($breakpoints, medium)) {
+            justify-content: center;
+        }
+
+    }
+}

@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    flex-basis: 5%;
+    padding: 20px 24px;
+
+    &__title {
+        color: $base-font-color;
+        letter-spacing: -8%;
+        font-size: 1.3rem;
+        font-family: $title-font-family;
+        font-weight: $base-font-weight;
+    }
+}

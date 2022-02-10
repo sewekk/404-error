@@ -1,0 +1,100 @@
+.information {
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+
+    @media screen and (min-width: map-get($breakpoints, medium)) {
+        margin-top: calc(200px - 5vh);
+    }
+
+    &__title {
+        font-size: 2.6rem;
+        color: $base-font-color;
+        padding: 24px;
+        line-height: 71px;
+        font-weight: $base-font-weight;
+
+
+        @media screen and (min-width: map-get($breakpoints, small)) {
+            font-size: 3rem;
+        }
+
+        @media screen and (min-width: map-get($breakpoints, medium)) {
+            margin-left: 70px;
+
+        }
+
+        @media screen and (min-width: map-get($breakpoints, large)) {
+            font-size: 3.3rem;
+            padding: 28px;
+        }
+
+        @media screen and (min-width: 1380px) {
+            font-size: 3.5rem;
+            width: 600px;
+
+        }
+
+        @media screen and (min-width: map-get($breakpoints, xlarge)) {
+            font-size: 3.7rem;
+        }
+    }
+
+    &__description {
+        padding: 0 24px 24px 24px;
+        color: $second-font-color;
+        font-weight: $second-font-weight;
+        letter-spacing: 96.5%;
+
+        @media screen and (min-width: map-get($breakpoints, small)) {
+            font-size: 1.2rem;
+
+        }
+
+        @media screen and (min-width: map-get($breakpoints, medium)) {
+            margin-left: 70px;
+        }
+
+        @media screen and (min-width: map-get($breakpoints, large)) {
+            font-size: 1.3rem;
+
+        }
+
+        @media screen and (min-width: 1380px) {
+            font-size: 1.32rem;
+            width: 400px;
+
+        }
+
+        @media screen and (min-width: map-get($breakpoints, xlarge)) {
+            font-size: 1.33rem;
+
+
+        }
+
+
+
+    }
+
+    .button {
+
+        margin: 24px;
+        padding: 24px 43px;
+        text-transform: uppercase;
+        font-size: 0.76rem;
+        font-weight: $base-font-weight;
+        width: 216px;
+        background-color: $base-font-color;
+        color: #fff;
+        border: none;
+
+        @media screen and (min-width: map-get($breakpoints, medium)) {
+
+            margin: 24px 94px;
+        }
+
+        @media screen and (min-width: map-get($breakpoints, medium)) {
+
+            margin: 30px 94px;
+        }
+    }
+}
